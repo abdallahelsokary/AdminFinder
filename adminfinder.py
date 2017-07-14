@@ -57,8 +57,8 @@ parse = OptionParser(colored.blue("""
 {0}
 ----------------------
 ex:
-getadmin -u https://wwww.google.com/
-getadmin --url https:///wwww.google.com/
+adminfinder -u https://wwww.google.com/
+adminfinder --url https:///wwww.google.com/
 	""".format(colored.green("[Author >> Abdallah Elsokary]"))))
 parse.add_option("-u","--url",dest="s_url",type="string",help="plz url")
 (options ,args) = parse.parse_args()
